@@ -1,0 +1,12 @@
+.apartment-card {
+  margin: 20px 10px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  cursor: pointer;
+}
+
+
+.apartment-card:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}

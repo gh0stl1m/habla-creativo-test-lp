@@ -1,0 +1,39 @@
+/* Component clasess */
+
+.navbar-container {
+  background-color: #46200d;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  opacity: 0.85;
+}
+
+.navbar-container ul {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-container li {
+  color: white;
+  display: inline;
+  list-style: none;
+}
+
+.navbar-container p {
+  display: inline;
+  padding: 0px 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.navbar-container p:hover {
+  background-color: white;
+  color: black;
+  opacity: 0.5;
+}
+
+.navbar-container img {
+  position: absolute;
+  left: 70px;
+}

@@ -1,0 +1,20 @@
+.business-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;  
+  margin: 30px 10px;
+}
+
+.business-card-container img {
+  width: 100px;
+}
+
+
+.business-card-internal {
+  width: 200px;
+  display: flex;
+  flex-direction: column; 
+  text-align: center 
+}
